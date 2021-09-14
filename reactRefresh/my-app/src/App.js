@@ -5,16 +5,12 @@ import NewGoal from "./components/NewGoal/NewGoal";
 
 function App() {
   const [goal, setGoal] = useState([])
-  // const courseGoals = [
-  //   { id: "cg1", text: "formation" },
-  //   { id: "cg2", text: "List out the api" },
-  //   { id: "cg3", text: "comment on api" },
-  // ];
+
   function addGoalHandler(newGoal){
-    // courseGoals.push(newGoal)
-    setGoal([...goal,newGoal])
-    // console.log(courseGoals);
-  }
+    setGoal((preGoal)=>{
+     return [...preGoal,newGoal];
+    }
+    )}
   return (
     <div className="app-div">
       <h2>Course Goals</h2>
