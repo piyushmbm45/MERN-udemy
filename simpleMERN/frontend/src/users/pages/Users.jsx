@@ -4,30 +4,30 @@ import UsersList from "../components/UsersList";
 const users = [
   {
     id: "u1",
-    name: "Piyush Jain",
+    name: "John Doe",
     image:
-      "https://i.pcmag.com/imagery/reviews/03aizylUVApdyLAIku1AvRV-39.1605559903.fit_scale.size_760x427.png",
+      "https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_960_720.jpg",
     places: 9,
   },
   {
     id: "u2",
-    name: "Piyush",
+    name: "Alen Hry",
     image:
-      "https://i.pcmag.com/imagery/reviews/03aizylUVApdyLAIku1AvRV-39.1605559903.fit_scale.size_760x427.png",
+      "https://cdn.pixabay.com/photo/2016/11/18/19/07/happy-1836445_960_720.jpg",
     places: 2,
   },
   {
     id: "u3",
-    name: "Piyush",
+    name: "Jeevan",
     image:
-      "https://i.pcmag.com/imagery/reviews/03aizylUVApdyLAIku1AvRV-39.1605559903.fit_scale.size_760x427.png",
+      "https://cdn.pixabay.com/photo/2015/01/27/09/58/man-613601_960_720.jpg",
     places: 2,
   },
   {
     id: "u4",
-    name: "Piyush",
+    name: "Elena Ray",
     image:
-      "https://i.pcmag.com/imagery/reviews/03aizylUVApdyLAIku1AvRV-39.1605559903.fit_scale.size_760x427.png",
+      "https://cdn.pixabay.com/photo/2015/11/26/00/14/woman-1063100_960_720.jpg",
     places: 2,
   }
 ];
